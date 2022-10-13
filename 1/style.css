@@ -1,0 +1,44 @@
+*{
+    font-family: 'Audiowide', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-bar{
+    background-color: rgb(58, 53, 53);
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-bar li{
+    list-style: none;
+    margin: 10px 10px;
+    padding: 3px;
+    
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li a:hover{
+    text-decoration: none;
+    color: rgb(75, 222, 17);
+}
+
+.nav-bar input{
+    width: 200px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 6px;
+    height: 25px;
+    align-self: center;
+    text-align: justify;
+    background-color: rgb(245, 255, 232);
+}
